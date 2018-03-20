@@ -1,6 +1,6 @@
 # vue webpack4 example
 
-This is example of Vue project with webpack4 
+This is example of Vue project with webpack4
 
 ## Usage
 
@@ -49,17 +49,19 @@ static/css/app.30790115300ab27614ce176899523b62.css.map  828 bytes          [emi
   Build complete.
 ```
 
-### webpack 4, without split
+### webpack 4
 
 ```
-Hash: 21e1e548df22fab35345
+Hash: 117c844bc33f1d84ceb9
 Version: webpack 4.1.1
-Time: 3226ms
+Time: 4574ms
                                                   Asset       Size  Chunks             Chunk Names
-                  static/js/app.0aaa39d04aa9d2dcf1b4.js   72.2 KiB       0  [emitted]  app
-    static/css/app.30790115300ab27614ce176899523b62.css  432 bytes       0  [emitted]  app
+               static/js/vendor.be41032cbe36be175db8.js   60.8 KiB       0  [emitted]  vendor
+                  static/js/app.636944ff6ff64ab5f67c.js   12.2 KiB       1  [emitted]  app
+    static/css/app.30790115300ab27614ce176899523b62.css  432 bytes       1  [emitted]  app
 static/css/app.30790115300ab27614ce176899523b62.css.map  828 bytes          [emitted]
-              static/js/app.0aaa39d04aa9d2dcf1b4.js.map    338 KiB       0  [emitted]  app
-                                             index.html  332 bytes          [emitted]
-Entrypoint app = static/js/app.0aaa39d04aa9d2dcf1b4.js static/css/app.30790115300ab27614ce176899523b62.css static/js/app.0aaa39d04aa9d2dcf1b4.js.map
+           static/js/vendor.be41032cbe36be175db8.js.map    316 KiB       0  [emitted]  vendor
+              static/js/app.636944ff6ff64ab5f67c.js.map   25.7 KiB       1  [emitted]  app
+                                             index.html  416 bytes          [emitted]
+Entrypoint app = static/js/vendor.be41032cbe36be175db8.js static/js/vendor.be41032cbe36be175db8.js.map static/js/app.636944ff6ff64ab5f67c.js static/css/app.30790115300ab27614ce176899523b62.css static/js/app.636944ff6ff64ab5f67c.js.map
 ```
