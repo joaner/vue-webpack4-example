@@ -4,11 +4,26 @@ This is example of Vue project with webpack4
 
 ## Usage
 
-start use webpack4 by clone this repertory.
+start use webpack4 by clone this repertory, or download package:
+
+```bash
+wget https://github.com/joaner/vue-webpack4-example/archive/master.tar.gz
+tar -zxf vue-webpack4-example-master.tar.gz
+cd vue-webpack4-example-master
+npm install
+
+# start you project
+vi package.json
+npm run dev
+```
+
+---------
 
 ## Migrate
 
-### my webpack3 project
+If you project already use webpack3, you can run the command yourself to migrate:
+
+### your existing webpack3 project
 
 ```bash
 vue-init webpack vue-project
