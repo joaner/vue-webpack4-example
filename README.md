@@ -4,22 +4,31 @@ This is example of Vue project with webpack4
 
 ## Usage
 
-start use webpack4 by clone this repertory, or download package:
+start use webpack4 by clone this repertory:
+
+```bash
+git clone --depth 1 https://github.com/joaner/vue-webpack4-example myproject
+```
+
+OR download package:
 
 ```bash
 wget https://github.com/joaner/vue-webpack4-example/archive/master.tar.gz
 tar -zxf vue-webpack4-example-master.tar.gz
 cd vue-webpack4-example-master
 npm install
+```
 
-# start you project
+### Start you project
+
+```bash
 vi package.json
 npm run dev
 ```
 
 ---------
 
-## Migrate
+## Migrate from webpack<=3
 
 If you project already use webpack3, you can run the command yourself to migrate:
 
@@ -80,3 +89,7 @@ static/css/app.30790115300ab27614ce176899523b62.css.map  828 bytes          [emi
                                              index.html  416 bytes          [emitted]
 Entrypoint app = static/js/vendor.be41032cbe36be175db8.js static/js/vendor.be41032cbe36be175db8.js.map static/js/app.636944ff6ff64ab5f67c.js static/css/app.30790115300ab27614ce176899523b62.css static/js/app.636944ff6ff64ab5f67c.js.map
 ```
+
+## Suggestion
+
+welcome any idea...
