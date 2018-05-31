@@ -70,8 +70,9 @@ const webpackConfig = merge(baseWebpackConfig, {
     // you can customize output by editing /index.html
     // see https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
-      filename: config.build.index,
-      template: 'index.html',
+      filename: path.resolve(__dirname, '../dist/index.js'),
+      title: 'my express app',
+      template: '!!ejs-loader!./index.ejs',
       inject: true,
       minify: {
         removeComments: true,

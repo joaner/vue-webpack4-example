@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= htmlWebpackPlugin.options.title %></title>
+    </head>
+    <body>
+        <div id="root">${__body}</div>
+    </body>
+    <script>
+        window.__INITIAL_STATE__ = ${JSON.stringify(__preState)};
+    </script>
+    <script src="${__script}"></script>
+</html>
