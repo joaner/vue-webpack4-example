@@ -1,5 +1,11 @@
 # vue webpack4 example
 
+## NOTE
+- now you can use [@vue/cli](https://github.com/vuejs/vue-cli) to create webpack4 project, dose not need this project.
+- 现在你可以使用 [@vue/cli](https://github.com/vuejs/vue-cli) 直接创建webpack4项目，不必再看下面的了。
+
+----------
+
 This is example of Vue project with webpack4
 
 ## Usage
